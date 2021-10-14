@@ -1,0 +1,65 @@
+header span {
+  display: none;
+}
+
+@media (max-width:768px) {
+  header ul {
+    display: none;
+  }
+
+  header p {
+    margin-left: 5%;
+  }
+
+  header span {
+    display: block;
+  }
+
+  .top-wrapper {
+    background: url("../img/firstview.png") no-repeat left/cover;
+  }
+
+  .section {
+    height: 200px;
+  }
+
+  .section > div p:first-of-type {
+    margin-top: 120px;
+  }
+
+  .section > div p:last-of-type {
+    display: none;
+  }
+
+  .container h3 {
+    width: 95%;
+  }
+
+  .container > div {
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    width: 95%;
+    column-gap: 15px;
+  }
+
+  .container > div > div {
+    width: 100%;
+  }
+  .container > div > div img {
+    width: 100%;
+  }
+
+  footer > div {
+    width: 95%;
+  }
+
+  footer > div img {
+    margin: 40px 0;
+    width: 280px;
+  }
+
+  footer > div > div {
+    margin: 20px 0 0 30px;
+  }
+
+}
